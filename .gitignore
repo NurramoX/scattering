@@ -1,0 +1,94 @@
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradlew.bat
+gradle-app.setting
+
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+### IDE - IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### IDE - Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IDE - VS Code ###
+.vscode/
+.history/
+
+### OS specific ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+### Logs and databases ###
+*.log
+*.sqlite
+*.db
+
+### Package Files ###
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+### Build and temp files ###
+tmp/
+temp/
+dist/
+node_modules/
+.env
+.env.local
+.env.*.local
+
+### Documentation ###
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+
+### Test coverage ###
+coverage/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
