@@ -1,0 +1,18 @@
+---
+repos:
+- repo: "local"
+  hooks:
+  - id: "spotless"
+    name: "Spotless Check & Apply"
+    entry: "./gradlew spotlessApply"
+    language: "system"
+    pass_filenames: false
+    types:
+    - "java"
+  - id: "error-prone"
+    name: "Error Prone Check"
+    entry: "./gradlew compileJava"
+    language: "system"
+    pass_filenames: false
+    types:
+    - "java"

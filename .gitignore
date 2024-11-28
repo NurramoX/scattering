@@ -4,7 +4,6 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-gradlew.bat
 gradle-app.setting
 
 ### Java ###
@@ -92,3 +91,10 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+
+### Python virtual environemt ###
+.venv/
+venv/
+
+### Personal project specific
+papers
